@@ -143,7 +143,7 @@ const Checkout = () => {
     const { amount, id: order_id, currency } = result.data.order;
 
     const options = {
-      key: "rzp_test_HSSeDI22muUrLR", // Enter the Key ID generated from the Dashboard
+      key: "rzp_test_IIXw1fcDqJbFlK", // Enter the Key ID generated from the Dashboard
       amount: amount,
       currency: currency,
       name: "Cart's corner",
@@ -177,12 +177,12 @@ const Checkout = () => {
         dispatch(resetState());
       },
       prefill: {
-        name: "Dev Corner",
-        email: "devcorner@example.com",
+        name: "Adarsha Nayaka",
+        email: "kadarshanayaka2@gmail.com",
         contact: "9999999999",
       },
       notes: {
-        address: "developer's cornor office",
+        address: "E-COmmerce",
       },
       theme: {
         color: "#61dafb",
